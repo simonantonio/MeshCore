@@ -1,3 +1,22 @@
+## Fork Overview
+
+- Adds support for custom boards using:
+  - RP2040
+  - nRF52 (nice!nano)
+  - ESP32-C3 Super Mini
+- Supports radios:
+  - LR1121 (module)
+  - SX1262 (DX-LR30)
+- Mix and match MCU + radio depending on your build
+- Aimed at low power nodes, mesh setups, and small local servers
+
+- Current variants:
+  - `nrf52_lr1121_custom`
+
+- Planned: simple “library” bridge
+  - Access books and documents over the mesh
+  - Designed for offline use (remote nodes, room servers)
+  
 ## About MeshCore
 
 MeshCore is a lightweight, portable C++ library that enables multi-hop packet routing for embedded projects using LoRa and other packet radios. It is designed for developers who want to create resilient, decentralized communication networks that work without the internet.
